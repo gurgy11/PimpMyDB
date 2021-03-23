@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: pimpmydb
-Version: 0.0.1.dev1
+Version: 0.0.7.dev1
 Summary: "An easy to use database utility for creating and managing a MySQL database."
 Home-page: https://github.com/gurgy11/pimpmydb
 Author: Gregory Bockus
