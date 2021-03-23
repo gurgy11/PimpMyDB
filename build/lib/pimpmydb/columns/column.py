@@ -87,7 +87,13 @@ class Column():
         
     def default_string(self):
         if self.get_default() is not None:
-            return " DEFAULT {default}".format(default=self.get_default())
+            try:
+                if self.get_default() == 'CURRENT_TIMESTAMP':
+                    return " DEFAULT {default}".format(default=self.get_default())
+                
+                return " DEFAULT '{default}'".format(default=self.get_default())
+            except:
+                return ""
         else:
             return ""
     

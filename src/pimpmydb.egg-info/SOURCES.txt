@@ -18,5 +18,9 @@ src/pimpmydb/columns/timestamp_column.py
 src/pimpmydb/columns/varchar_column.py
 src/pimpmydb/database/__init__.py
 src/pimpmydb/database/database.py
+src/pimpmydb/query_generator/__init__.py
+src/pimpmydb/query_generator/query_generator.py
+src/pimpmydb/statement_generator/__init__.py
+src/pimpmydb/statement_generator/statement_generator.py
 src/pimpmydb/tables/__init__.py
 src/pimpmydb/tables/table.py
